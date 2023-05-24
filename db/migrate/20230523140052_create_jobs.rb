@@ -11,7 +11,6 @@ class CreateJobs < ActiveRecord::Migration[6.1]
       t.string :industry
       t.integer :base_salary
       t.integer :employment_type_id
-      t.integer :id
       t.timestamps
     end
   end

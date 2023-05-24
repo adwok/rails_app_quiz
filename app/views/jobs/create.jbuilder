@@ -9,5 +9,4 @@ json.job do
   json.industry               @job.industry
   json.base_salary            @job.base_salary
   json.employment_type_id     @job.employment_type_id
-  json.id                     @job.id
 end
